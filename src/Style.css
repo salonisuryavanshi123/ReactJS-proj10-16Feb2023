@@ -1,0 +1,20 @@
+header{
+    height: 60px;
+    background-color: #7734F9;
+}
+footer{
+    height: 270px;
+    background-color: #F8F9FA;
+
+}
+main{
+    height: 1000px;
+    border: 1px dashed navy;
+}
+.s_cont{
+    border: 3px dashed green;
+}
+.tbdr{
+    border: 1px dashed #000;
+    height: 1000px;
+}

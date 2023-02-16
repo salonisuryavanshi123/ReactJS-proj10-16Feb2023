@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+//1. Import Area
+import React from "react";
+import Layout from "./Components/Layout/Layout";
+import Section from "./Components/Layout/Section";
+import Page1 from "./Pages/Page1";
+import Page2 from "./Pages/Page2";
+import './Style.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+//2. Defination Area
+//This time use function defination area
+export default function App() {
+    //Every function return something
+    return (
+        <Layout>
+            <Section>
+                <Page1></Page1>
+                <Page2></Page2>
+            </Section>
+        </Layout>
+    )
 }
-
-export default App;
+//3. Export Area
